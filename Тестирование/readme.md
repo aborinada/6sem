@@ -127,3 +127,4 @@ image image Инкрементная модель - полностью гото�
 https://habr.com/ru/post/534190/
 https://habr.com/ru/post/542422/
 https://habr.com/ru/post/98203/
+![image](https://user-images.githubusercontent.com/97913101/222684326-0097737d-ea11-4eaf-bede-27e123096adb.png)
