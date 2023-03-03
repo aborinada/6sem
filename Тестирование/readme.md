@@ -103,5 +103,6 @@ qune4q / 6sem Public Code Issues Pull requests Actions Projects Security Insight
 нажать кнопку "+"
 нажать кнопку "2"
 нажать кнопку "=" Ожидаемый результат: вывод "4" Наблюдаемый результат: вывод "5"
+![image](https://user-images.githubusercontent.com/97913101/222667835-f6b85db6-22a6-404b-94d6-7b260c4199b5.png)
 
  
