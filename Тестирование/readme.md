@@ -128,3 +128,94 @@ https://habr.com/ru/post/534190/
 https://habr.com/ru/post/542422/
 https://habr.com/ru/post/98203/
 ![image](https://user-images.githubusercontent.com/97913101/222684326-0097737d-ea11-4eaf-bede-27e123096adb.png)
+
+
+https://docs.google.com/document/d/1-355w4kRSLAAWYNZpidUFqfhyM_knfxQAUeujVKYbJw/edit
+    
+    
+public class Class1 { //создание функции сложения //модификаторы доступа(private и public) static типы данных имя функции //(тип данных данные) {что делает функция} {что делает функция, //обязательно return тип переменной с типом функции} public static float Sum(float a, float b) { float sum = a+b; return sum; } public static float Vich(float a, float b) { float vich = a - b; return vich; } public static float Del(float a, float b) { float del = 0; if (b==0) { throw new DivideByZeroException(); } else del = a / b; return del; } public static float Umn(float a, float b) { float umn = a * b; return umn; } }
+public class Tests 
+{ 
+    [SetUp] 
+    public void Setup() 
+    { 
+    } 
+ 
+    [Test] 
+    public void TestSumFloat() 
+    { 
+        // Arrange 
+        float a = 10; 
+        float b = 15; 
+        float expected = 25; 
+        // Act 
+        // вызов функции 
+        // задать переменную: тип данных и название 
+        // название класс. название функции (данные БЕЗ типов данных) 
+        float actual = Class1.Sum(a, b); 
+        // Assert 
+        Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(expected, actual); 
+        
+    } 
+ 
+    [Test] 
+    public void TestVichFloat() 
+    { 
+        // Arrange 
+        float a = 15; 
+        float b = 10; 
+        float expected = 5; 
+        // Act 
+        // вызов функции 
+        // задать переменную: тип данных и название 
+        // название класс. название функции (данные БЕЗ типов данных) 
+        float actual = Class1.Vich(a, b); 
+        // Assert 
+        Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(expected, actual); 
+    } 
+    [Test] 
+    public void TestDelFloat() 
+    { 
+        // Arrange 
+        float a = 20; 
+        float b = 5; 
+        float expected = 4; 
+        // Act 
+        // вызов функции 
+        // задать переменную: тип данных и название 
+        // название класс. название функции (данные БЕЗ типов данных) 
+        float actual = Class1.Del(a, b); 
+        // Assert 
+        Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(expected, actual); 
+    } 
+    [Test] 
+    public void TestUmnFloat() 
+    { 
+        // Arrange 
+        float a = 20; 
+        float b = 5; 
+        float expected = 100; 
+        // Act 
+        // вызов функции 
+        // задать переменную: тип данных и название 
+        // название класс. название функции (данные БЕЗ типов данных) 
+        float actual = Class1.Umn(a, b); 
+        // Assert 
+        Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(expected, actual); 
+    } 
+ 
+    [Test] 
+    [ExpectedException(typeof(DivideByZeroException), 
+"Oh my god, we can't divison on zero")] 
+    public void Div_4Div0_ZeroDivException() 
+    { 
+        // arrange  
+         
+        float a = 4; 
+        float b = 0; 
+        // act 
+        float result = Class1.Del(a, b); 
+        // assert             
+    } 
+}
+    ![e780f86e-2f3d-4622-98db-3998b3e2eb78](https://user-images.githubusercontent.com/97594123/230847885-71889e67-0744-461f-960b-196a8e0e407c.jpg)
