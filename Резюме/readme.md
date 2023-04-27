@@ -20,8 +20,4 @@ http://alferovconference.ru/ - конференция 01.02 — 10.09.2023
 
 Штраф за не уклад в дедлайн -1
 
-![image](https://user-images.githubusercontent.com/97913101/216916214-e27c7434-799f-405f-9eb6-aab08ce575d6.png)
-http://project6764309.tilda.ws/aborina
-![image](https://user-images.githubusercontent.com/97913101/216923897-0cf3ab1d-ae35-4f04-866c-cea4aa2fcfe4.png)
-![image](https://user-images.githubusercontent.com/97913101/216923834-f804d71f-927e-402e-aedd-7a0ed9962790.png)
-![image](https://user-images.githubusercontent.com/97913101/216923968-9fdd9435-9d6c-4355-81f1-144b48024f96.png)
+ https://ecdho.tb.ru/page2 
