@@ -20,4 +20,4 @@ http://alferovconference.ru/ - конференция 01.02 — 10.09.2023
 
 Штраф за не уклад в дедлайн -1
 
- https://ecdho.tb.ru/page2 
+ https://ecdho.tb.ru/page2
